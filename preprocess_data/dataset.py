@@ -3,13 +3,6 @@ import numpy as np
 from PIL import Image
 import torch
 from torch.utils.data import Dataset
-from .preprocess import preprocess
-
-import os
-import numpy as np
-from PIL import Image
-import torch
-from torch.utils.data import Dataset
 from .preprocess import preprocess  # импорт функции предобработки
 
 class CTScanDataset(Dataset):
