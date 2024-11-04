@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
 import os
-
+from scipy.ndimage import gaussian_filter
 
 def compute_dataset_mean_std(dataset_dir):
     """
@@ -68,6 +68,7 @@ def filter_noise(data, sigma=1):
     Returns:
         numpy.ndarray: Данные после фильтрации шумов.
     """
+    filtered_data = gaussian_filter(data, sigma=sigma)
 
     return filtered_data
 
