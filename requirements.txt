@@ -1,14 +1,14 @@
-acvl_utils==0.2.1
+acvl-utils==0.2.5
 batchgenerators==0.25.1
 batchgeneratorsv2==0.2.3
-blosc2==2.5.1
+blosc2==3.2.0
 certifi==2025.1.31
 charset-normalizer==3.4.1
 connected-components-3d==3.22.0
 contourpy==1.3.0
 cycler==0.12.1
 dicom2nifti==2.5.1
-dynamic_network_architectures==0.3.1
+dynamic-network-architectures==0.3.1
 einops==0.8.1
 fft-conv-pytorch==1.2.0
 filelock==3.17.0
@@ -16,6 +16,7 @@ fonttools==4.56.0
 fsspec==2025.2.0
 future==1.0.0
 graphviz==0.20.3
+hiddenlayer @ git+https://github.com/FabianIsensee/hiddenlayer.git@b7263b6dc4569da1b6dea5964e1eac78fa32fa77
 idna==3.10
 imagecodecs==2024.12.30
 imageio==2.37.0
@@ -32,13 +33,19 @@ msgpack==1.1.0
 ndindex==1.9.2
 networkx==3.2.1
 nibabel==5.3.2
+-e git+https://github.com/aapertsev/nnUNet.git@aa5728b7c296e9824f8f96315410e1c2500b3965#egg=nnunetv2&subdirectory=../../nnUNet
+numexpr==2.10.2
 numpy==1.26.4
 packaging==24.2
 pandas==2.2.3
 pillow==11.1.0
+platformdirs==4.3.6
 py-cpuinfo==9.0.0
 pydicom==2.4.4
 pyparsing==3.2.1
+PyQt5==5.15.11
+PyQt5-Qt5==5.15.16
+PyQt5_sip==12.17.0
 python-dateutil==2.9.0.post0
 python-gdcm==3.0.24.1
 pytz==2025.1
@@ -53,9 +60,9 @@ six==1.17.0
 sympy==1.13.1
 threadpoolctl==3.5.0
 tifffile==2024.8.30
-torch==2.6.0
-torchaudio==2.6.0
-torchvision==0.21.0
+torch==2.2.2
+torchaudio==2.2.2
+torchvision==0.17.2
 tqdm==4.67.1
 traceback2==1.4.0
 typing_extensions==4.12.2
