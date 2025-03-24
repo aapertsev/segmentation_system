@@ -33,7 +33,6 @@ msgpack==1.1.0
 ndindex==1.9.2
 networkx==3.2.1
 nibabel==5.3.2
--e git+https://github.com/aapertsev/nnUNet.git@aa5728b7c296e9824f8f96315410e1c2500b3965#egg=nnunetv2&subdirectory=../../nnUNet
 numexpr==2.10.2
 numpy==1.26.4
 packaging==24.2
