@@ -16,7 +16,6 @@ fonttools==4.56.0
 fsspec==2025.2.0
 future==1.0.0
 graphviz==0.20.3
-hiddenlayer @ git+https://github.com/FabianIsensee/hiddenlayer.git@b7263b6dc4569da1b6dea5964e1eac78fa32fa77
 idna==3.10
 imagecodecs==2024.12.30
 imageio==2.37.0
