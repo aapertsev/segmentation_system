@@ -24,12 +24,11 @@ cd your_project_path
 ```
 chmod +x install_files/install_linux.sh
 source install_files/install_linux.sh
-pip install PyQt5
 ```
 
 ### 5) Запустить приложение.
 ```
-python3 interface/main.py 
+streamlit run web/streamlit_app.py
 ```
 
 
