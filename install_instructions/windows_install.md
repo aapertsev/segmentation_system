@@ -3,7 +3,7 @@
 
 ### 1) Склонировать репозиторий.
 ```
-git clone https://git.miem.hse.ru/2057/2057.git
+git clone https://github.com/aapertsev/segmentation_system.git
 ```
 
 ### 2) В директории с проектом создать виртуальную среду и активировать ее.

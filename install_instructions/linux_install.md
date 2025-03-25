@@ -3,7 +3,7 @@
 
 ### 1) Склонировать репозиторий.
 ```
-git clone https://git.miem.hse.ru/2057/2057.git
+git clone https://github.com/aapertsev/segmentation_system.git
 cd 2057
 ```
 
@@ -20,7 +20,7 @@ curl -L "https://getfile.dokpub.com/yandex/get/https://disk.yandex.ru/d/IU7EjyQU
 cd your_project_path
 ```
 
-### 4) Запустить скрипт install.sh (далее этот скрипт необходимо запускать при каждом новом сеансе).
+### 4) Запустить скрипт install_linux.sh (далее этот скрипт необходимо запускать при каждом новом сеансе).
 ```
 chmod +x install_files/install_linux.sh
 source install_files/install_linux.sh
