@@ -3,9 +3,8 @@ PROJECT_ROOT="$(cd "$(dirname "$0")"/.. && pwd)"
 echo "Project root = $PROJECT_ROOT"
 echo "Installing Python requirements..."
 pip install -r "${PROJECT_ROOT}/requirements.txt"
-echo "Updating git submodules..."
-git submodule update --init --recursive
 echo "Installing nnUNet in editable mode..."
+git clone https://github.com/aapertsev/nnUNet.git
 cd "${PROJECT_ROOT}/nnUNet"
 pip install -e .
 echo "Installing hiddenlayer from GitHub..."
