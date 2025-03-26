@@ -1,5 +1,11 @@
 
 # Инструкция по установке и использованию для Linux
+### 0) Предварительные требования:
+Необходимо установить Python версии 3.10 и выше, а так же пакет с заголовками Python и инструменты сборки.  
+На Fedora это можно сделать командой:
+```
+sudo dnf install python3-devel gcc
+```
 
 ### 1) Склонировать репозиторий.
 ```
@@ -25,12 +31,9 @@ cd your_project_path
 cd install_files
 chmod +x install_linux.sh
 source install_linux.sh
-cd ..
 ```
 
 ### 5) Запустить приложение.
 ```
 streamlit run web/streamlit_app.py
 ```
-
-

@@ -1,7 +1,7 @@
 acvl-utils==0.2.5
 batchgenerators==0.25.1
 batchgeneratorsv2==0.2.3
-blosc2==3.2.0
+blosc2==2.7.1
 certifi==2025.1.31
 charset-normalizer==3.4.1
 connected-components-3d==3.22.0
