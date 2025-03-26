@@ -22,8 +22,10 @@ cd your_project_path
 
 ### 4) Запустить скрипт install_linux.sh (далее этот скрипт необходимо запускать при каждом новом сеансе).
 ```
-chmod +x install_files/install_linux.sh
-source install_files/install_linux.sh
+cd install_files
+chmod +x install_linux.sh
+source install_linux.sh
+cd ..
 ```
 
 ### 5) Запустить приложение.

@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-PROJECT_ROOT="$(cd "$(dirname "$0")" && pwd)"
+PROJECT_ROOT="$(cd "$(dirname "$0/..")" && pwd)"
 echo "Project root = $PROJECT_ROOT"
 echo "Installing Python requirements..."
 pip install -r "${PROJECT_ROOT}/requirements.txt"
